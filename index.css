@@ -1,6 +1,50 @@
 h2 {
-    text-decoration-color: #1c7cac;
-    color: #af0303;
-  }
+  text-decoration-color: #1c7cac;
+  color: #af0303;
+}
   
+#heading {
+  color:rgb(5, 1, 15);
+}
+
+body {
+  /* background: white url(https://thumbs.dreamstime.com/z/happy-man-snow-covered-enjoying-winter-33761243.jpg) no-repeat; */
+}
+
+#contacts-body {
+  background: url(https://images.unsplash.com/photo-1485652326772-ff3eae0b221f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+#about-body {
+  /* background: url(https://www.ingloriouscoderz.it/_next/static/images/metal-wallpaper-3332ea3aa68955eb3406abac6a06f036.jpg); */
+}
+
+#powercoders-body {
+  background : url(https://all4desktop.com/data_images/original/4236405-cool-wallpapers.jpg)no-repeat;
+
+  /* background-size: 1000px 1100px; */
+}
+/* background: url(https://images.unsplash.com/photo-1580131004075-c77e9bc00ee0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)no-repeat; */
+
+#about-body {
+  background: url(https://images.unsplash.com/photo-1489510434820-a547c90750ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)no-repeat;
+  background-size: cover;
+}
+#Home-body {
+  background: url(https://drscdn.500px.org/photo/101965223/m%3D900/v2?sig=76b3aaed23e7bcd539d3aa044fdd76f5b23ed7390fb9f518857a5ba0f7bb657f) no-repeat;
+  background-size: cover;
+  margin: 0px;
+  margin-bottom: 8px;
+
+}
+  /* background-image:url(https://images.unsplash.com/photo-1580053839766-70d80f7d20db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jason-yoder-QijMQZxo-YM-unsplash.jpg); */
   
+
+#Search-Body {
+  text-align: center;
+}
+.SearchImage {
+  width: 50%;
+}
