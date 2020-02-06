@@ -68,11 +68,46 @@
 // console.log(i+'Result!')
 
 
-let i
+// let i
 
-for (i = 0; i < 108; i += 10) {
-    console.log(i)
+// for (i = 0; i < 108; i += 10) {
+//     console.log(i)
 
+// }
+
+// console.log(i+'Result!')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// print all multiples of 20 from 0 to 100
+
+for (let i=0 ; i<6 ; i+=1){
+    console.log(i*20+'That\'s it')
 }
-
-console.log(i+'Result!')
