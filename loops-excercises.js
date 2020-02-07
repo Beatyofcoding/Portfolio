@@ -108,6 +108,95 @@
 
 // print all multiples of 20 from 0 to 100
 
-for (let i=0 ; i<6 ; i+=1){
-    console.log(i*20+'That\'s it')
+// for (let i=0 ; i<6 ; i+=1){
+//     console.log(i*20+'That\'s it')
+// }
+
+/*
+*********************
+*********************
+*********************
+*********************
+*********************
+*********************
+*********************
+*/
+
+// let i = 0;
+// while (i++ < 5) alert( i );
+
+
+
+
+
+
+
+// let asteriks = "*";
+// let star = "*";
+// let i = star += asteriks
+
+// for (let laps = 0; laps < 21; laps++){
+//     for( let rows = 0 ;rows < 7; rows++){
+//         star += asteriks
+
+//     }
+//     console.log(i)}
+
+
+// for (let laps = 11;laps < 21;laps;laps +=1  ){
+//     for(let rows = 7;rows<11;rows);
+//     console.log("star")
+// }
+
+ 
+// let str =''
+
+// for (let i =0;i<11; i++){
+//     str += "*"
+// }
+// console.log(str)
+
+
+
+// tree
+// let str = ""
+// for ( i = 0 ; i<17 ; i++){
+//     console.log( str+="*")
+// }
+
+
+
+// one line of ***
+// let str = ""
+// for ( i = 0 ; i<17 ; i++){
+//     ( str+="*")
+// }console.log(str)
+
+
+// let str = ""
+// for ( i = 0 ; i<17 ; i++){
+//     for ( j=0 ; j<7 ;j++){
+//     (str+="*")
+//     }
+    
+// }console.log (str)
+
+// let str = ""
+
+
+// START: repeat three times
+for (let i = 0; i < 3; i++) {
+
+    // START: build a row
+    str = ""
+    for (let j = 0; j < 5; j++) {
+       let str += "*"
+    }
+    console.log(str)
+    // END
+
 }
+// END
+
+
+
