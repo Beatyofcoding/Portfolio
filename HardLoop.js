@@ -1,35 +1,21 @@
-// #include <stdio.h>
 
-// int main()
-// {
-//     int i, j, size;
 
-//     printf("Enter size: ");
-//     scanf("%d", &size);
 
-//     for(i=1; i<size*2; i++)
-//     {
-//         for(j=1; j<=size; j++)
-//         {
-//             // Condition for corner and center intersection space
-//             if((i==1 && (j==1 || j==size)) || 
-//                (i==size && (j==1 || j==size)) || 
-//                (i==size*2-1 && (j==1 || j==size)))
-//             {
-//                 printf(" ");
-//             }
-//             else if(i==1 || i==size || i==(size*2)-1 || j==1 || j==size)
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
 
-//         printf("\n");
-//     }
 
-//     return 0;
-// };
+
+// let i = 11
+// while (i > 0 ){
+//      i--;
+
+//     console.log(i)
+// }
+
+
+
+num = ""
+for ( i = 0; i<3; i++){
+    for ( j = 0; j<11;j++){
+  num += j.toString() + " "
+    }console.log(num)
+}
