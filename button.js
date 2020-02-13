@@ -9,7 +9,7 @@ function printMultiple(n, c) {
 function triangle(rows) {
     let n = 1;
     for (let spaces = rows - 1; spaces > 0; spaces--) {
-        console.log(printMultiple(spaces, " ") + printMultiple(n, "*"))
+        console.log(printMultiple(spaces, " ") + printMultiple(n, "1"))
         n += 2
     }
 }
