@@ -5,14 +5,14 @@ body {
 }
 
 .calc-btn {
-    background-color: silver;
-    color: black;
+    background-color: gray;
+    color: white;
     width: 25px;
     height: 45px;
-    border: 1px solid gray;
+    border: 1px solid black;
     text-align: center;
     cursor: pointer;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 100;
     padding-top: 3px;
 }
@@ -40,9 +40,9 @@ body {
 #calc-display-val {
     height: 40px; color: white;
     text-align: right;
-    border-left: 3px solid gray;
-    border-right: 3px solid gray;
-    border-top: 3px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px black;
     font-size: 32px;
     background-color: #383838;
     overflow: hidden;
@@ -81,4 +81,17 @@ h1 {
 }
 #calc-decimal {
     width: 41px;
+}
+.calc-btn-row1 {
+    background-color:rgba(2, 1, 1, 0.714);
+    color: white;
+    font-size: 25px;
+    width:20px;
+    height: 25px;
+    border: 0.5px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 3px;
 }
