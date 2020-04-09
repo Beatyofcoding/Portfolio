@@ -2,10 +2,30 @@
 
 body {
     font-family: 'Comic Neue', cursive;;
+    /* display: flex; */
+     /* justify-content: center; */
+     /* text-align: center;  */
+     margin: 0 auto; width: 244px;
+     
+    
 }
 
+.calc-btn-row1 {
+    background-color:rgba(2, 1, 1, 0.714);
+    color: white;
+    font-size: px;
+    width:20px;
+    height: 10px;
+    border: 0.5px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 3px;
+    
+}
 .calc-btn {
-    background-color: gray;
+    background-color: rgba(27, 26, 26, 0.653);
     color: white;
     width: 25px;
     height: 45px;
@@ -56,8 +76,7 @@ body {
     font-size: 30px;
 }
 h1 {
-    text-align: center;
-    margin-top: 50px;
+    
 }
 #calc-equals {
     width: 40px;
@@ -81,17 +100,4 @@ h1 {
 }
 #calc-decimal {
     width: 41px;
-}
-.calc-btn-row1 {
-    background-color:rgba(2, 1, 1, 0.714);
-    color: white;
-    font-size: 25px;
-    width:20px;
-    height: 25px;
-    border: 0.5px solid black;
-    text-align: center;
-    cursor: pointer;
-    font-size: 28px;
-    font-weight: 100;
-    padding-top: 3px;
 }
