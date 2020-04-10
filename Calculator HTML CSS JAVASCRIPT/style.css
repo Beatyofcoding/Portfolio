@@ -6,6 +6,7 @@ body {
      /* justify-content: center; */
      /* text-align: center;  */
      /* margin: 0 auto; width: 244px; */
+     background-color: black;
      
      
     }
@@ -83,6 +84,7 @@ body {
 h1 {
     text-align: center;
     margin-top: auto;
+    background-color: white;
 }
 #calc-equals {
     width: 40px;

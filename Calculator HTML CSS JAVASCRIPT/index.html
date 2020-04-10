@@ -1,15 +1,15 @@
 <html>
-<head>
+  <head>
     <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
     
-</head>
   <body>
     <h1>HTML Calculator</h1>
     <div id="calc-parent">
         <div class="row">
             <div class="column" id="calc-display-val">0</div>
         </div>
-        <div class="row" id="row1">
+        <div class="row">
             <div class="calc-btn-row1 column" id="calc-clear">AC</div>
             <div class="calc-btn-row1 column" id="calc-negate"><sup>+</sup>&#8260;<sub>&#8722;</sub></div>
             <div class="calc-btn-row1 column" id="calc-percentage">%</div>
@@ -39,10 +39,57 @@
             <div class="calc-btn calc-btn-operator column" id="calc-equals">=</div>
         </div>
     </div>
+<script>
+    
+var oneBtn = document.getElementById('calc-one');
+var twoBtn = document.getElementById('calc-two');
+var threeBtn = document.getElementById('calc-three');
+var fourBtn = document.getElementById('calc-four');
+var fiveBtn = document.getElementById('calc-five');
+var sixBtn = document.getElementById('calc-six');
+var sevenBtn = document.getElementById('calc-seven');
+var eightBtn = document.getElementById('calc-eight');
+var nineeBtn = document.getElementById('calc-nine');
+var zeroBtn = document.getElementById('calc-zero');
 
+var decimalBtn = document.getElementById('calc-decimal');
+var clearBtn = document.getElementById('calc-clear');
+// var backspaceBtn = document.getElementById('calc-backspace');
+var displayValElement = document.getElementById('calc-display-val');
 
-    <script>
-        
-    </script>
+var displayVal = '0';
+var pendingVal;
+var evalStringArray = [];
+
+var calcNumBtns = document.getElementByClassName('calc-btn-num');
+var calcOperatorBtns = document.getElementByClassName('calc-btn-operator');
+
+var updateDisplayVal = (clickObj) => {
+    var btnText = clickObj.target.innerText;
+
+    if(displayVal === '0')
+        displayVal = '';
+
+        displayVal += btnText;
+        displayValElement.innetText = displayVal;
+}
+
+for (let i = 0; i < calcNumBtns.length; i++) {
+    calcNumBtns[i].addEventListener('click', updateDisplayVal, false);
+}
+
+// for (let i = 0; i < calcOperatorBtns.length; i++){
+//     calcOperatorBtns[i].addEventListener('click', updateDisplayVal, false);
+    
+// }
+clearBtn.onclick = () => {
+    displayVal = '0';
+    pendingVal = undefined;
+    evalStringArray = [];
+}
+</script>
+
+<!-- type="Calculator" src="calculator.js"></script>         -->
+
   </body>
 </html>
