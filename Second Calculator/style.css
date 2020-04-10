@@ -32,21 +32,21 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    -webkit-webkit: border rad 50;
-    -moz-webkit: border rad 50;
-    -ms-webkit: border rad 50;
-    -o-webkit: border rad 50; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
 }
 
 .menu_item:nth-child(1) {
     background-color: #fc5b57;
 }
 
-.menu_item:nth-child(1) {
+.menu_item:nth-child(2) {
     background-color: #e5bf3c;
 }
 
-.menu_item:nth-child(1) {
+.menu_item:nth-child(3) {
     background-color: #57c038;
 }
 

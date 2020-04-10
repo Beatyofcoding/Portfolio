@@ -26,26 +26,29 @@
 
             <div class="buttons">
                 <span class="btn clear-btn" onclick="document.form.input.value = ''">AC</span>
-                <span class="btn" onclick="document.form.input.value += ''">%</span>
-                <span class="btn orange-btn"onclick="document.form.input.value = ''">/</span>
+                <span class="btn" onclick="document.form.input.value += '%'">%</span>
+                <span class="btn orange-btn"onclick="document.form.input.value = '/'">&divide;</span>
                 <span class="btn"onclick="document.form.input.value += '7'">7</span>
                 <span class="btn"onclick="document.form.input.value += '8'">8</span>
                 <span class="btn"onclick="document.form.input.value += '9'">9</span>
-                <span class="btn orange-btn"onclick="document.form.input.value = ''">*</span>
+                <span class="btn orange-btn"onclick="document.form.input.value = 'x'">&times;</span>
                 <span class="btn"onclick="document.form.input.value += '4'">4</span>
                 <span class="btn"onclick="document.form.input.value += '5'">5</span>
                 <span class="btn"onclick="document.form.input.value += '6'">6</span>
-                <span class="btn orange-btn"onclick="document.form.input.value = ''">-</span>
+                <span class="btn orange-btn"onclick="document.form.input.value += '-'">-</span>
                 <span class="btn"onclick="document.form.input.value += '1'">1</span>
                 <span class="btn"onclick="document.form.input.value += '2'">2</span>
                 <span class="btn"onclick="document.form.input.value += '3'">3</span>
-                <span class="btn orange-btn"onclick="document.form.input.value += ''">+</span>
+                <span class="btn orange-btn"onclick="document.form.input.value += '+'">+</span>
                 <span class="btn long-btn"onclick="document.form.input.value += '0'">0</span>
-                <span class="btn orange-btn"onclick="document.form.input.value += ','">,</span>
-                <span class="btn orange-btn"onclick="document.form.input.value += '='">=</span>
+                <span class="btn"onclick="document.form.input.value += ','">,</span>
+                <span class="btn orange-btn"onclick="document.form.input.value = eval(form.input.value)">=</span>
             </div>
+
+
         </div>
     </header>
     
-</body>
-</html>
+ </body>
+
+ </html>
