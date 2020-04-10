@@ -1,71 +1,28 @@
+let oneBtn = document.getElementById('calc-one');
+let twoBtn = document.getElementById('calc-two');
+let threeBtn = document.getElementById('calc-three');
+let fourBtn = document.getElementById('calc-four');
+let fiveBtn = document.getElementById('calc-five');
+let sixBtn = document.getElementById('calc-six');
+let sevenBtn = document.getElementById('calc-seven');
+let eightBtn = document.getElementById('calc-eight');
+let niceBtn = document.getElementById('calc-nine');
+let zeroBtn = document.getElementById('calc-zero');
 
+let decimalBtn = document.getElementById('calc-decimal');
+let clearBtn = document.getElementById('calc-clear');
+let backspaceBtn = document.getElementById('calc-backspace');
+let displayValElement = document.getElementById('calc-display-val');
 
+let displayVal = '0';
+let pendingVal;
+let evalStringArray = [];
 
+let calcNumBtns = document.getElementByClassName('calc-btn-num');
+let calcOperatorBtns = document.getElementByClassName('calc-btn-operator');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var oneBtn = document.getElementById('calc-one');
-var twoBtn = document.getElementById('calc-two');
-var threeBtn = document.getElementById('calc-three');
-var fourBtn = document.getElementById('calc-four');
-var fiveBtn = document.getElementById('calc-five');
-var sixBtn = document.getElementById('calc-six');
-var sevenBtn = document.getElementById('calc-seven');
-var eightBtn = document.getElementById('calc-eight');
-var niceBtn = document.getElementById('calc-nine');
-var zeroBtn = document.getElementById('calc-zero');
-
-var decimalBtn = document.getElementById('calc-decimal');
-var clearBtn = document.getElementById('calc-clear');
-var backspaceBtn = document.getElementById('calc-backspace');
-var displayValElement = document.getElementById('calc-display-val');
-
-var displayVal = '0';
-var pendingVal;
-var evalStringArray = [];
-
-var calcNumBtns = document.getElementByClassName('calc-btn-num');
-var calcOperatorBtns = document.getElementByClassName('calc-btn-operator');
-
-var updateDisplayVal = (clickObj) => {
-    var btnText = clickObj.target.innerText;
+let updateDisplayVal = (clickObj) => {
+    let btnText = clickObj.target.innerText;
 
     if(displayVal === '0')
         displayVal = '';
