@@ -6,14 +6,14 @@ let fiveBtn = document.getElementById('calc-five');
 let sixBtn = document.getElementById('calc-six');
 let sevenBtn = document.getElementById('calc-seven');
 let eightBtn = document.getElementById('calc-eight');
-let niceBtn = document.getElementById('calc-nine');
-let zeroBtn = document.getElementById('calc-zero');
+let niceBtn = document.getElementById('calc-nine').innerHTML;
+let zeroBtn = document.getElementById('calc-zero').innerHTML;
 
 let decimalBtn = document.getElementById('calc-decimal');
 let clearBtn = document.getElementById('calc-clear');
 let backspaceBtn = document.getElementById('calc-backspace');
 let displayValElement = document.getElementById('calc-display-val');
-
+document.getElementById("calc-display-val").innerHTML
 let displayVal = '0';
 let pendingVal;
 let evalStringArray = [];
